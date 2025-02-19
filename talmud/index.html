@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Talmudic Bankruptcy Calculator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Talmudic Bankruptcy Calculator - Connected Vessels</h2>
+      <div class="popup-trigger">
+        <i class="fas fa-info"></i>
+      </div>
+
+      <div class="popup-overlay">
+        <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2>Talmudic Bankruptcy Problem</h2>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/uNemXgZ-MWY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="input-section">
+        <h3>Claims (CSV format, up to 8 values)</h3>
+        <div>
+          <textarea id="claims" rows="2" placeholder="Enter claims separated by commas (e.g., 100,200,300)">
+100,200,300</textarea
+          >
+          <div id="claims-error" class="error"></div>
+        </div>
+
+        <div class="slider-container">
+          <h3>Estate Amount: <span id="estate-value">300</span></h3>
+          <input type="range" id="estate" min="0" max="600" value="300" step="10" />
+          <div class="slider-labels">
+            <span>0</span>
+            <span id="max-estate">Total Claims: 600</span>
+          </div>
+        </div>
+        <button onclick="calculate()">Calculate</button>
+      </div>
+
+      <div class="vessel-container" id="vessels"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

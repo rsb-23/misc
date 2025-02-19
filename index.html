@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 1rem;
+        background: #fafafa;
+      }
+
+      .container {
+        background: white;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+
+      .group-title {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        color: #666;
+        margin: 0.5rem 0;
+        padding-bottom: 0.25rem;
+        border-bottom: 1px solid #eee;
+      }
+
+      .link-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 1rem 0;
+      }
+
+      .link {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        color: #2563eb;
+        padding: 0.5rem;
+        border-radius: 4px;
+        transition: background 0.2s;
+      }
+
+      .link:hover {
+        background: #f3f4f6;
+      }
+
+      .link-url {
+        font-size: 0.8rem;
+        color: #64748b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="group-title">Mathematics</h2>
+      <ul class="link-list">
+        <li>
+          <a href="./talmud" class="link">
+            <span>Talmudic Bankruptcy Problem</span>
+            <span class="link-url">./talmud</span>
+          </a>
+        </li>
+      </ul>
+
+      <h2 class="group-title" hidden>Design</h2>
+      <ul class="link-list" hidden>
+        <li>
+          <a href="https://figma.com" class="link">
+            <span>Figma</span>
+            <span class="link-url">figma.com</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://dribbble.com" class="link">
+            <span>Dribbble</span>
+            <span class="link-url">dribbble.com</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
