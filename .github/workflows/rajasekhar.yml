@@ -1,0 +1,33 @@
+name: Story Scrapper
+
+on:
+  schedule:
+    - cron: '26 11 3 * *'  # 3rd of every moth
+  workflow_dispatch:
+
+permission:
+  content: write
+
+jobs:
+  fetch-new-story:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5.1.1
+        with:
+          python-version: 3.12
+          cache: pip
+
+      - name: Run make_md
+        run: python3 rajasekhar/make_md.py
+        shell: bash
+
+      - name: Git push
+        uses: rsb-23/actions/git-push@main
+        with:
+          git_user: "story[bot]"
+          files: "rajasekhar/"
+          commit_message: "chore: Fetch new stories"
+          branch: main
