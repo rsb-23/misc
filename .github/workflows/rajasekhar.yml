@@ -5,8 +5,8 @@ on:
     - cron: '26 11 3 * *'  # 3rd of every moth
   workflow_dispatch:
 
-permission:
-  content: write
+permissions:
+  contents: write
 
 jobs:
   fetch-new-story:
