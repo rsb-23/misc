@@ -20,9 +20,13 @@ jobs:
           python-version: 3.12
           cache: pip
 
-      - name: Run make_md
-        run: python3 rajasekhar/make_md.py
+      - name: Install deps
         shell: bash
+        run: pip install -r rajasekhar/requirements.txt
+
+      - name: Run make_md
+        shell: bash
+        run: python3 rajasekhar/make_md.py
 
       - name: Git push
         uses: rsb-23/actions/git-push@main
