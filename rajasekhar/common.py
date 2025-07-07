@@ -18,6 +18,7 @@ class VideoData:
     id: str
     title: str
     description: list[str]
+    publish_date: str
 
 
 def get_soup(url, *, filename: str):

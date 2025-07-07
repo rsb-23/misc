@@ -3,7 +3,9 @@ from common import get_video_data, save_locally
 
 
 def make_story(title, story) -> str:
-    _story = "\n\n".join(x for x in story if len(x)>100)
+    if not story:
+        return ""
+    _story = "<br><br>".join(x for x in story if len(x) > 100)
     return f"\n### {title}\n\n<details>\n<summary>Story</summary>\n{_story}\n</details>\n"
 
 

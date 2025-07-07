@@ -50,11 +50,20 @@ def scrape_video_data(video_id: str) -> VideoData:
     else:
         raise NotImplementedError
 
+    publish_date = soup.find("meta", attrs={"itemprop": "datePublished"}).get("content")
+
     return VideoData(
         id=_video_data["videoId"],
         title=clean_title(_video_data["title"]),
         description=_video_data["shortDescription"].split("\n\n")[1:-1],
+        publish_date=publish_date,
     )
+
+
+def save_video_data(video_data: dict):
+    _sorted_video_data = sorted(video_data.items(), key=lambda vdata: vdata[1]["publish_date"], reverse=True)
+    with open(SCRIPT_DIR / "video_data.json", "w") as fw:
+        json.dump(dict(_sorted_video_data), fw, indent=2)
 
 
 def main():
@@ -65,5 +74,4 @@ def main():
         x = scrape_video_data(_video_id)
         VIDEO_DATA[_video_id] = asdict(x)
 
-    with open(SCRIPT_DIR / "video_data.json", "w") as fw:
-        json.dump(VIDEO_DATA, fw, indent=2)
+    save_video_data(VIDEO_DATA)
