@@ -1,4 +1,5 @@
 import json
+import re
 from dataclasses import asdict
 
 from common import SCRIPT_DIR, VideoData, get_soup, get_video_data, videos_url
@@ -8,6 +9,13 @@ VIDEO_DATA = get_video_data()
 
 def clean_title(txt: str):
     return txt.rsplit("|", 1)[0].strip()
+
+
+def clean_desc(txt: str, title: str) -> list[str]:
+    txt = txt.removeprefix(title)
+    txt = re.sub(r"#\w+", "", txt)
+    txt = re.sub(r"([^.!\n?]* know.*? typing .*? read[^.!?]*[.!?])", "", txt, 1)
+    return txt.strip().split("\n\n")
 
 
 def get_video_ids() -> list[str]:
@@ -40,8 +48,8 @@ def scrape_video_data(video_id: str) -> VideoData:
     """
     Scrapes data from the YouTube video's page whose ID is passed in the URL, and returns a JSON object as a response.
     """
-
-    video_url = "https://www.youtube.com/watch?v=" + video_id
+    print(f"Scraping video : {video_id}")
+    video_url = f"https://www.youtube.com/watch?v={video_id}"
     soup = get_soup(video_url, filename="video.htm")
 
     script_data = soup.find("body").find("script").string
@@ -52,10 +60,11 @@ def scrape_video_data(video_id: str) -> VideoData:
 
     publish_date = soup.find("meta", attrs={"itemprop": "datePublished"}).get("content")
 
+    _title = _video_data["title"]
     return VideoData(
         id=_video_data["videoId"],
-        title=clean_title(_video_data["title"]),
-        description=_video_data["shortDescription"].split("\n\n")[1:-1],
+        title=clean_title(_title),
+        description=clean_desc(_video_data["shortDescription"], title=_title),
         publish_date=publish_date,
     )
 

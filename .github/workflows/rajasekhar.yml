@@ -1,8 +1,8 @@
 name: Story Scrapper
 
 on:
-  schedule:
-    - cron: '26 11 3 * *'  # 3rd of every moth
+  # schedule:
+  #   - cron: '26 11 3 * *'  # 3rd of every moth
   workflow_dispatch:
 
 permissions:
