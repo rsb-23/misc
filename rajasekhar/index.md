@@ -1,5 +1,12 @@
 ## Raja Mama Stories
 
+### [Europe Experience | Recorded in Amsterdam](https://youtu.be/1hH5vA0W6CM)
+
+<details>
+<summary>Story</summary>
+So once in a while I just goto a mall and sit in the food court of a mall to write something. Why food court? because it gives me food for thought. One of those occasions, I was at GVK mall and I got myself Pongal to eat. It was a Sankranthi weekend so I was happy with the pongal. Happy pongal. Anyway, I was sitting on a table, writing something and also occasionally eating the food. When I lifted my head from my laptop I saw an old grumpy looking aunty staring at me. Usually I like talking to aunties. They offer some wisdom. That way I am an aunty national. But this one was very grumpy and almost staring me down. I ignored her and I continued only to find myself at the receiving end of my looks. Now, I have very nonchalantly shifted my place. I have been wanting to use this word nonchalant somewhere from last 5 days ever since I heard it for the first time. So yeah, I nonchalantly shifted my seat.<br><br>After a while, I finished eating my food went to the hand wash area only to find her staring at me again there. She was washing hands as if, she just killed me. She did though with her looks. I just slowly went back to my place and was wondering if I knew her or did I date her daughter in the past. Now I couldn't write any content so I decided to step out. At the parking, I was taking out my parking ticket and I got the food order out of my pocket. That's when I realised, I picked up wrong order. I actually ordered Upma out of habit, but I picked up Pongal because I wanted to eat it. So dear aunty, if you are reading this, I am sorry. I owe you a Pongal. I know it was happy pongal for me that day but Happy Dasara to all of you today. 
+</details>
+
 ### [Unscripted | 12 year Old | Guy from Wayanad](https://youtu.be/3nA_HRnG3lE)
 
 <details>
