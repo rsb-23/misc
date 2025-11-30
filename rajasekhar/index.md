@@ -1,5 +1,20 @@
 ## Raja Mama Stories
 
+### [Horrible Singer | Full Show](https://youtu.be/iMnUnoBr0AI)
+
+<details>
+<summary>Story</summary>
+The other day, I was reading a book in Starbucks and someone was either watching reels or some videos around. I usually focus and concentrate on what I do and but that day it was a bit difficult. <br><br>Even as a kid I was known for my concentration. I remember my science teacher used to tell my story to entire class how single mindedlly for like 60 minutes throughout her class, I used to sleep. So nothing used to disturb my concentration even when there was a lot of noise around. 
+Of course she used to think she was scolding me, but I was wise enough to know that, scoldings by teachers are blessings. If you see now, where is she and where I am.  Don't know. So I ignored the noise in Starbucks also and continued reading the book. It was a science related book. So it was interesting and I couldn't even blink my eyes while reading. Don't know why I didn't get to know all this earlier. <br><br>But the noise from somebody's mobile was persistent so I got up to tell the staff about it. The Starbucks was empty apart from one customer in the corner. Usually sometimes staff also watch a few reels when a customer is taking time to pronounce cappuccino. <br><br>After talking to the staff I realised that the noise was actually from my mobile itself and I just kept the YouTube shorts tab open. <br><br>So I learnt that sometimes before you blame others YouTube, I need to check my tube as well. At the end of the day we are all we tubers. 
+</details>
+
+### [Unscripted Ep 4| Malls and Shopping](https://youtu.be/3udyFXUHzfk)
+
+<details>
+<summary>Story</summary>
+So my friend and I went on a road trip to Proddutur and while coming back I was driving alone. So I had a goal of reaching Hyderabad by 6 so that I can attend a stand up comedy show by a friend called Rohit Swain. So I started in the afternoon and I kind of speeding my way to Hyderabad. I was talking to a friend and she said, I am sure, you will reach Hyderabad soon if you don't stop anywhere, unless there is some puncture happens. She disconnected the call and within minutes puncture happened almost near to Kurnool airport.  I know how to change the tyre, I practised with my old car, Swift. Two three times when puncture happened, I changed the tyre very easily. Sorry I changed the tyre so swiftly. I always desired that puncture should happen and drove Swift desire also. Anyway, So I got down my car, saw that the tyre was a gone case. It was apollo tyres. Apollo has got into tyres also now. I think, Apollo 24/7 app should provide all services. You are going in car, we have tyres.<br><br>You have some illness, we have hospitals. Emergency, we have ambulances. They should just start apollo matrimonial services also. They can hook up people who are born in the same apollo hospital. 'Are you single at the age of 30? We have a girl who was born 28 years ago in the same hospital, just two beds away from you. She also diabetes now and we hope you would be a sweet couple?' something like that. Anyway, so I searched for nearest shops and found one, New Mani tyres. I don't know what was old mani into. Those guys came in like one hour and we went to the new mani tyres in Kurnool and got the tyre changed and I bought a new tyre and the guy who works there said, sir anytime you want anything call me. What do you mean by anything re? you will do anything ah? No sir. only tyre related. These days got into matrimony also. So I told him you should call yourself Apollo. He didn't get the joke. I got my tyre and came off. So in Kurnool, there is New Mani tyres. Keep in mind, if you need anything.
+</details>
+
 ### [Europe Experience | Recorded in Amsterdam](https://youtu.be/1hH5vA0W6CM)
 
 <details>
