@@ -12,10 +12,17 @@ STORY_FORMAT = """
 
 
 def make_story(video_data: dict) -> str:
+    def part_of_story(sentence) -> bool:
+        if "description" in sentence and "reads" in sentence:
+            print(">>", video_data["title"])
+            print(sentence)
+            return False
+        return True
+
     story = video_data["description"]
     if not story:
         return ""
-    _story = "\n<br><br>".join(x for x in story if len(x) > 100)
+    _story = "\n<br><br>".join(x for x in story if part_of_story(x))
     return STORY_FORMAT.format(video_id=video_data["id"], title=video_data["title"], story=_story)
 
 
