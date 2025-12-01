@@ -15,7 +15,7 @@ def make_story(video_data: dict) -> str:
     story = video_data["description"]
     if not story:
         return ""
-    _story = "<br><br>".join(x for x in story if len(x) > 100)
+    _story = "\n<br><br>".join(x for x in story if len(x) > 100)
     return STORY_FORMAT.format(video_id=video_data["id"], title=video_data["title"], story=_story)
 
 
