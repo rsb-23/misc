@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Stories by Rajasekhar Mamidanna" />
+    <title>Raja Mama Stories</title>
+    <link rel="stylesheet" href="https://projects.tchh.in/assets/css/gh_pages.min.css" />
+    <style>
+      p {
+        text-align: justify;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <h2>Raja Mama Stories</h2>
+      <div id="storyList"></div>
+    </div>
+
+    <template>
+      <h3 class="anchor-head"><a></a></h3>
+      <details name="story">
+        <summary>Story</summary>
+      </details>
+    </template>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+      integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        anchors.add(".anchor-head");
+      });
+    </script>
+  </body>
+</html>

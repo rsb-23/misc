@@ -4,7 +4,7 @@ from common import get_video_data, save_locally
 STORY_FORMAT = """
 ### [{title}](https://youtu.be/{video_id})
 
-<details>
+<details name="story">
 <summary>Story</summary>
 {story}
 </details>
@@ -22,7 +22,7 @@ def make_story(video_data: dict) -> str:
     story = video_data["description"]
     if not story:
         return ""
-    _story = "\n<br><br>".join(x for x in story if part_of_story(x))
+    _story = "\n<br><br>".join(str(x) for x in story if part_of_story(x))
     return STORY_FORMAT.format(video_id=video_data["id"], title=video_data["title"], story=_story)
 
 
