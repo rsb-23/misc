@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1e293b" />
+    <title>URL Cleaner</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 align="center">🔗 URL Cleaner 🔗</h1>
+    <div class="url-section">
+      <label class="url-label">Original URL</label>
+      <textarea id="input" class="url-box" placeholder="Paste URL here..."></textarea>
+    </div>
+
+    <div class="toggles">
+      <div class="toggle-wrapper">
+        <span>Decode URL</span>
+        <label class="toggle">
+          <input type="checkbox" id="decode" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="toggle-wrapper">
+        <span>Keep non-URL text</span>
+        <label class="toggle">
+          <input type="checkbox" id="keep-text" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="toggle-wrapper">
+        <span>Keep Fragment</span>
+        <label class="toggle">
+          <input type="checkbox" id="keep-fragment" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="url-section">
+      <label class="url-label">Clean URL</label>
+      <div class="url-box output cleaned" onclick="copy()">
+        <span id="prefix"></span>
+        <span class="scheme">https://</span>
+        <span class="host"></span>
+        <span class="path"></span>
+        <span class="query"></span>
+        <span class="hash"></span>
+        <span id="suffix"></span>
+      </div>
+      <button id="copyBtn" onclick="copy()" hidden>Copy Clean URL</button>
+    </div>
+
+    <div id="output">
+      <div class="url-box">
+        <div style="color: #ef4444" id="error-box" hidden>Invalid URL</div>
+
+        <div class="params" hidden></div>
+      </div>
+    </div>
+    <div class="toast" id="toast">Copied!</div>
+
+    <template>
+      <div class="param">
+        <input type="checkbox" id="a" checked="" />
+        <label for="a"></label>
+      </div>
+    </template>
+    <template id="fragment">
+      <fieldset>
+        <legend>fragment</legend>
+      </fieldset>
+    </template>
+
+    <script src="js/config.js"></script>
+    <script src="js/parser.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

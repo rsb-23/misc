@@ -1,0 +1,15 @@
+.scheme {
+  color: #38bdf8;
+}
+.host {
+  color: #4ade80;
+}
+.path {
+  color: #facc15;
+}
+.query {
+  color: #fb7185;
+}
+.hash {
+  color: #c084fc;
+}
