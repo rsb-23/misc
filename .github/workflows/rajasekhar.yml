@@ -13,12 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: rsb-23/actions/checkout@v1
       - name: Setup Python
-        uses: actions/setup-python@v6.0.0
+        uses: rsb-23/actions/setup-python@v1
         with:
           python-version: 3.12
-          cache: pip
 
       - name: Install deps
         shell: bash
@@ -29,9 +28,8 @@ jobs:
         run: python3 rajasekhar/make_md.py
 
       - name: Git push
-        uses: rsb-23/actions/git-push@main
+        uses: rsb-23/actions/commit-n-push@v1
         with:
           git_user: "story[bot]"
           files: "rajasekhar/"
           commit_message: "chore: Fetch new stories"
-          branch: main

@@ -12,10 +12,12 @@ STORY_FORMAT = """
 
 
 def make_story(video_data: dict) -> str:
-    def part_of_story(sentence) -> bool:
+    def part_of_story(sentence: str) -> bool:
+        if sentence[0] in "0123456789-":
+            return True
         if "description" in sentence and "reads" in sentence:
             print(">>", video_data["title"])
-            print(sentence)
+            print(f"SKIPPED: {sentence}")
             return False
         return True
 
