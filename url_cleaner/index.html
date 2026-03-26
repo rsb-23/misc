@@ -9,40 +9,77 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>🔗 URL Cleaner 🔗</h1>
+    <header class="header">
+      <h1>🔗 URL Cleaner</h1>
+      <button id="config-btn" class="config-btn" aria-label="Settings">☰</button>
+    </header>
+
+    <div class="config-modal" id="config-modal">
+      <div class="config-content">
+        <div class="config-header">
+          <h2>Settings</h2>
+          <button id="close-config" class="close-btn">&times;</button>
+        </div>
+        <div class="config-toggles">
+          <div class="toggle-wrapper">
+            <label for="decode">Decode URL</label>
+            <label class="toggle">
+              <input type="checkbox" id="decode" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="toggle-wrapper">
+            <label for="keep-fragment">Keep Fragment</label>
+            <label class="toggle">
+              <input type="checkbox" id="keep-fragment" checked />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="url-section">
-      <label class="url-label" for="og-url">Original URL</label>
+      <div class="url-label-row">
+        <label class="url-label" for="og-url">Original URL</label>
+        <button id="clear-btn" class="action-btn" hidden>✕</button>
+      </div>
       <textarea id="og-url" class="url-box" placeholder="Paste URL here..."></textarea>
     </div>
 
     <div class="toggles">
       <div class="toggle-wrapper">
-        <label for="decode">Decode URL</label>
-        <input type="checkbox" id="decode" class="toggle" />
-      </div>
-      <div class="toggle-wrapper">
         <label for="keep-text">Keep non-URL text</label>
-        <input type="checkbox" id="keep-text" class="toggle" />
-      </div>
-      <div class="toggle-wrapper">
-        <label for="keep-fragment">Keep Fragment</label>
-        <input type="checkbox" id="keep-fragment" class="toggle" />
+        <label class="toggle">
+          <input type="checkbox" id="keep-text" />
+          <span class="slider"></span>
+        </label>
       </div>
     </div>
 
     <div class="url-section">
-      <label class="url-label">Clean URL</label>
-      <div class="url-box output cleaned" onclick="copy()">
+      <div class="url-label-row">
+        <label class="url-label">Clean URL</label>
+        <div class="action-buttons" hidden id="action-buttons">
+          <button class="action-btn" id="open-btn" title="Open">🔗</button>
+          <button class="action-btn" id="copy-btn" title="Copy">📋</button>
+          <button class="action-btn" id="share-btn" title="Share">📤</button>
+        </div>
+      </div>
+      <div class="url-box output cleaned">
         <span id="prefix"></span><span class="scheme">https://</span><span class="host"></span><span class="path"></span
         ><span class="query"></span><span class="hash"></span><span id="suffix"></span>
       </div>
-      <button id="copyBtn" onclick="copy()" hidden>Copy Clean URL</button>
     </div>
 
     <div id="new-url">
       <div class="url-box">
         <div style="color: #ef4444" id="error-box" hidden>Invalid URL</div>
 
+        <div class="collapsible-header" id="query-header" hidden>
+          <span>Query Parameters</span>
+          <span class="collapsible-icon">▼</span>
+        </div>
         <div class="params" hidden></div>
       </div>
     </div>
