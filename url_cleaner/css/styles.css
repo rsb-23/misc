@@ -19,6 +19,7 @@ h1 {
   font-size: 1.6rem;
   margin-bottom: 20px;
   color: #3b82f6;
+  text-align: center;
 }
 textarea {
   width: 100%;

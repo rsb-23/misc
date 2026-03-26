@@ -9,51 +9,37 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1 align="center">🔗 URL Cleaner 🔗</h1>
+    <h1>🔗 URL Cleaner 🔗</h1>
     <div class="url-section">
-      <label class="url-label">Original URL</label>
-      <textarea id="input" class="url-box" placeholder="Paste URL here..."></textarea>
+      <label class="url-label" for="og-url">Original URL</label>
+      <textarea id="og-url" class="url-box" placeholder="Paste URL here..."></textarea>
     </div>
 
     <div class="toggles">
       <div class="toggle-wrapper">
-        <span>Decode URL</span>
-        <label class="toggle">
-          <input type="checkbox" id="decode" />
-          <span class="slider"></span>
-        </label>
+        <label for="decode">Decode URL</label>
+        <input type="checkbox" id="decode" class="toggle" />
       </div>
       <div class="toggle-wrapper">
-        <span>Keep non-URL text</span>
-        <label class="toggle">
-          <input type="checkbox" id="keep-text" />
-          <span class="slider"></span>
-        </label>
+        <label for="keep-text">Keep non-URL text</label>
+        <input type="checkbox" id="keep-text" class="toggle" />
       </div>
       <div class="toggle-wrapper">
-        <span>Keep Fragment</span>
-        <label class="toggle">
-          <input type="checkbox" id="keep-fragment" />
-          <span class="slider"></span>
-        </label>
+        <label for="keep-fragment">Keep Fragment</label>
+        <input type="checkbox" id="keep-fragment" class="toggle" />
       </div>
     </div>
 
     <div class="url-section">
       <label class="url-label">Clean URL</label>
       <div class="url-box output cleaned" onclick="copy()">
-        <span id="prefix"></span>
-        <span class="scheme">https://</span>
-        <span class="host"></span>
-        <span class="path"></span>
-        <span class="query"></span>
-        <span class="hash"></span>
-        <span id="suffix"></span>
+        <span id="prefix"></span><span class="scheme">https://</span><span class="host"></span><span class="path"></span
+        ><span class="query"></span><span class="hash"></span><span id="suffix"></span>
       </div>
       <button id="copyBtn" onclick="copy()" hidden>Copy Clean URL</button>
     </div>
 
-    <div id="output">
+    <div id="new-url">
       <div class="url-box">
         <div style="color: #ef4444" id="error-box" hidden>Invalid URL</div>
 

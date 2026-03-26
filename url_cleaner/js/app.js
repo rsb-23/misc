@@ -3,8 +3,8 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js");
 }
 
-const inp = document.getElementById("input");
-const out = document.getElementById("output");
+const inp = document.getElementById("og-url");
+const out = document.getElementById("new-url");
 const decodeCheck = document.getElementById("decode");
 const keepExtraText = document.getElementById("keep-text");
 const keepFragment = document.getElementById("keep-fragment");
@@ -14,6 +14,9 @@ let state;
 
 function updateCleanUrl() {
   const cleaned = buildUrl(state, decodeCheck.checked);
+  if (!cleaned) {
+    return;
+  }
   const u = new URL(cleaned);
 
   document.querySelector("span.scheme").textContent = u.protocol + "//";

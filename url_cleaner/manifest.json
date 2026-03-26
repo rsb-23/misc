@@ -1,7 +1,8 @@
 {
   "name": "URL Cleaner",
   "short_name": "URL Cleaner",
-  "start_url": "/",
+  "start_url": "/misc/url_cleaner/",
+  "scope": "/misc/url_cleaner/",
   "display": "standalone",
   "background_color": "#1e293b",
   "theme_color": "#1e293b",
