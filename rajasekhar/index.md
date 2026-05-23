@@ -1,5 +1,13 @@
 ## Raja Mama Stories
 
+### [Unscripted Ep. 5 | The Doctor & Principal](https://youtu.be/8n8Xj86UWos)
+
+<details name="story">
+<summary>Story</summary>
+So I am in US from last one month or so and everywhere I go, Indian friends and relatives are inviting me for dinner etc and everywhere I go, they are making food for me. There was one friends place I loved the food so much. I complimented her a lot about the food and then she told, she ordered it. Some places, they were serving me filter coffee because I love filter coffee. Most of the places, it's just bru. Finally in Sacramento, I was invited to have authentic filter coffee. Before I could drink it, I wanted to use rest room and I saw something which blew my mind. In the washroom, the commode had a remote control for flush. !!! I have never used remote for a flush in my life.
+<br><br>Now that's my goal in my life. To install that kind of commode in my restroom. I will invite everybody to my house for filter coffee and will ask them to use restroom. I will name that rest room, remote village. Or I operate it from outside, remotely. Filter coffee was great anyway.
+</details>
+
 ### [Dogs, Men & Women](https://youtu.be/Y9Z6_15RZzo)
 
 <details name="story">

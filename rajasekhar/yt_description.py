@@ -37,10 +37,13 @@ def get_video_ids() -> list[str]:
     for video in videos:
         if "richItemRenderer" not in video:
             break
-        video = video["richItemRenderer"]["content"]["videoRenderer"]
-        _video_ids.append(video["videoId"])
-        # print(clean_title(video["title"]["runs"][0]["text"]))
-
+        try:
+            video = video["richItemRenderer"]["content"]["lockupViewModel"]
+            _video_ids.append(video["contentId"])
+            # print(clean_title(video["title"]["runs"][0]["text"]))
+        except KeyError:
+            print(video["richItemRenderer"]["content"].keys())
+            raise
     return _video_ids
 
 
