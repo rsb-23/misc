@@ -21,9 +21,9 @@ def clean_desc(txt: str, title: str) -> list[str]:
 def get_video_ids() -> list[str]:
     soup = get_soup(videos_url, filename="page.htm")
 
-    scripts = soup.find("body").find_all("script", limit=3)
-    for script in scripts:
-        json_str = script.string
+    next_script = soup.find("script", type="application/ld+json")
+    while next_script := next_script.find_next_sibling("script"):
+        json_str = next_script.string
         if json_str and json_str.startswith("var ytInitialData"):
             _page_data = json.loads(json_str[20:-1])["contents"]
             break

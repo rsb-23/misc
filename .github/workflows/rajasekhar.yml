@@ -12,10 +12,8 @@ jobs:
   fetch-new-story:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: rsb-23/actions/checkout@v1
-      - name: Setup Python
-        uses: rsb-23/actions/setup-python@v1
+      - uses: rsb-23/actions/checkout@main
+      - uses: rsb-23/actions/setup-python@main
         with:
           python-version: 3.12
 
@@ -28,7 +26,7 @@ jobs:
         run: python3 rajasekhar/make_md.py
 
       - name: Git push
-        uses: rsb-23/actions/commit-n-push@v1
+        uses: rsb-23/actions/commit-n-push@main
         with:
           git_user: "story[bot]"
           files: "rajasekhar/"

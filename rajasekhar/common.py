@@ -35,6 +35,9 @@ def get_video_data() -> dict:
 
 
 def save_locally(filename: str, content: str | bytes):
-    mode = "w" if isinstance(content, str) else "wb"
-    with open(SCRIPT_DIR / filename, mode) as f:
+    if isinstance(content, str):
+        content = content.encode("utf-8")
+    else:
+        content = content.decode("utf-8").encode()
+    with open(SCRIPT_DIR / filename, "wb") as f:
         f.write(content)
