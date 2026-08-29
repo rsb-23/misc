@@ -1,5 +1,13 @@
 ## Raja Mama Stories
 
+### [Fighting Wrong Battles](https://youtu.be/w_6aGvAIX9g)
+
+<details name="story">
+<summary>Story</summary>
+Usually whenever I goto this one particular restuarant I order Poori only. More than the taste of poori, I like to put a hole in the poori when it is freshly served. That gives me more excitement than eating it. As usual, I took the Poori and sat outdoors and was eating. After a while, a man aged around 60 I think, who dressed in neat formals, kind of working in collector office type vibes and sat down. He was eating Upma, which of course is my first favourite. I admired him silently in my heart and put three holes in three pooris. After a while I realised the person was staring at me as he ate his Upma. I smiled awkwardly and he asked me, what do you do? I said I am in entertainment field. Actually, that was not a stare, it was proper judging me type of looks. He has aspects but his specs are resting on the tip of his nose and looking me through above his specs. You come to this restaurant everyday? I said no. Once a week may be. He nodded as he ate his Upma. He asked again how did you come. I said, I came by bike. He asked, dont you have a car? I said, I have, but today I wanted to come on bike. At this point of time, I was getting irritated and his judgement looks are getting severe.
+<br><br>I started eating faster. He looked at me and he asked, you eat like this only ? I was like sir, we are all different people, we eat differently and we shit differently. He was like, why do you talk about shit when eating. I was like sir, why are we even talking with each other? You stay alone at home? You dont cook at home? By this time, I was on last poori, I said, sir, I got divorced last week, this was my second divorce, my ex wife took away my cook as well. I know cooking but right now life is cooking. So can I eat peacefully? He just adjusted his specs, got up, looked at me one final time and left. I finished last poori and I washed my hands and went to the cashier and asked him, dude who is that guy? Cashier was like, sir, he comes here everyday. Little weird types. He always orders poori. I was like today he ate Upma and my brain. Then I realised, it was actually me who ordered Upma. So I ate off his Poori. That explains his behaviour but couldn't ask me directly so he tried a very awkward conversation. I felt like an idiot and walked outside to spot him, but not to be seen. So if just in case, if that person is watching this video and reading this description, I just want to say, Sorry for the poori.
+</details>
+
 ### [Flying Experience in the US | Vlog](https://youtu.be/gPH4v23VQhg)
 
 <details name="story">

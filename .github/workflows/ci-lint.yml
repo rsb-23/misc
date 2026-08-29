@@ -1,5 +1,4 @@
 name: CI Lint
-permissions: { }
 
 on:
   push:
@@ -15,3 +14,11 @@ jobs:
       security-events: write
     with:
       tools: actionlint,zizmor
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: { }
