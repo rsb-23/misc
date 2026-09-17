@@ -42,7 +42,7 @@ function updateSlider() {
   // Adjust estate value if needed, rounding to nearest 50
   const newValue = Math.min(Math.round(currentValue / 50) * 50, roundedMax);
   slider.value = newValue;
-  document.getElementById("estate-value").textContent = newValue;
+  document.getElementById("estate-value").value = newValue;
 }
 
 // Vessel generation and management
@@ -187,9 +187,11 @@ function calculate() {
 
 // Event listeners
 document.getElementById("estate").addEventListener("input", function () {
-  document.getElementById("estate-value").textContent = this.value;
+  document.getElementById("estate-value").value = this.value;
   calculate();
 });
+
+document.getElementById("claims").addEventListener("input", calculate);
 
 document.addEventListener("DOMContentLoaded", function () {
   const popupTrigger = document.querySelector(".popup-trigger");

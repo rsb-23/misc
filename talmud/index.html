@@ -4,6 +4,7 @@
     <title>Talmudic Bankruptcy Calculator</title>
     <meta name="author" content="rsb-23" />
     <meta name="description" content="Talmudic Bankruptcy Calculator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:image" content="thumbnail.png"></meta>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -44,14 +45,18 @@
         </div>
 
         <div class="slider-container">
-          <h3>Estate Amount: <span id="estate-value">300</span></h3>
-          <input type="range" id="estate" min="0" max="600" value="300" step="10" />
-          <div class="slider-labels">
-            <span>0</span>
-            <span id="max-estate">Total Claims: 600</span>
+          <div class="slider-row">
+            <label for="estate">Estate Amount</label>
+            <div class="slider-track-wrap">
+              <input type="range" id="estate" min="0" max="600" value="300" step="10" />
+              <div class="slider-labels">
+                <span>0</span>
+                <input type="text" id="estate-value" value="300" readonly />
+                <span id="max-estate">Total Claims: 600</span>
+              </div>
+            </div>
           </div>
         </div>
-        <button onclick="calculate()">Calculate</button>
       </div>
 
       <div class="vessel-container" id="vessels"></div>
