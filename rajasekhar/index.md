@@ -1,5 +1,13 @@
 ## Raja Mama Stories
 
+### [Snippets from Various Shows](https://youtu.be/VEj_fFLySUs)
+
+<details name="story">
+<summary>Story</summary>
+The other day, I was going to my sisters place in car and its like an hour journey. As I was listening to songs and was driving, I found one peanut chikki packet in the dashboard. I counted there are like, 12 peaces and 6 members including me at my sisters place so all of us can have 2 pieces each. So I ate two in the journey. After a while, I told myself, 6 of us are there and 10 seems like an odd number, so I ate another 4. After a while I realised how can someone have one piece each so I ate another one. After a while before reaching my place, I finished entire packet. Journey was long you know. I stopped eating peanut chikkis anyway because of some incident which happened when I was a kid. When I was around 5 or 6, I found one chikki packet in my grand mom's room. Some 5 or 6 are there. Even the time at that time was 5 or 6.
+<br><br>I took one chikki and came back again after 5 or 6 minutes and took another chikki and came again took another one and this process went on some 5 or 6 times and the packet was done. My grand mother came after 5 or 6 minutes and she started searching for the packet. I think she must have searched for like 5 or 6 minutes and asked around 5 or 6 family members including me and she gave up. My mom was like we will buy another one. She was like no no, for my constipation, Ayurvedic doctor mixed some medicine and gave so that's for me I will ask the doctor. Next two days, everyone found out who ate those chikkis. I had to use washroom like 5 or 6 times per day and had a blast. Anyway so I reached my sisters place and I gave the empty packet to my nephew to throw it away. He saw it and told me mama, expiry date is over. I remembered my grand mom and braced myself for next two days.
+</details>
+
 ### [Fighting Wrong Battles](https://youtu.be/w_6aGvAIX9g)
 
 <details name="story">
